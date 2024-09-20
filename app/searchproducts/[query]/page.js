@@ -65,8 +65,8 @@ try {
                                 <p className='text-sm my-2'>{item.title}</p>                                                     
                                 <p className='text-base font-bold my-0 text-red-600'>${item.price}</p>
                                 <div className='flex gap-2'>
-                                                <p className="text-xs md:text-sm mt-4">{categories.rating}</p>
-                                                <img className='w-[3.05rem] md:w-[3.3rem]' src={getRatingImage(categories.rating)} />
+                                                <p className="text-xs md:text-sm mt-4">{item.rating}</p>
+                                                <img className='w-[3.05rem] md:w-[3.3rem]' src={getRatingImage(item.rating)} />
                                             </div>
                                 <p className='text-sm my-1'>{item.availabilityStatus}</p>
                             </div>
