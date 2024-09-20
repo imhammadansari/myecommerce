@@ -49,6 +49,7 @@ const Footer = () => {
                         <input type='text' className='md:w-[15rem] lg:w-[26rem] text-sm md:text-base lg:text-base p-1 rounded mt-2' placeholder='Your Email'/>
                         <textarea className='md:w-[15rem] lg:w-[26rem] mt-2 p-1 text-sm md:text-base lg:text-base'rows={3} placeholder='Your Message'></textarea>
 
+                        <button className='w-20 h-9 bg-white text-black mt-4'>Send</button>
                     </form>
                 </div>
 
@@ -64,10 +65,16 @@ const Footer = () => {
 
             <div className='flex flex-col w-[20rem] items-end'>
                     <h1 className='font-bold text-sm'>Send Us a Message</h1>
-                    <form className='py-2 flex flex-col items-end'>
+                    <form>
+                        <div className='py-2 flex flex-col items-end'>
                         <input type='text' className='w-[7.5rem] text-xs p-1 rounded' placeholder='Your Name'/>
                         <input type='text' className='w-[7.5rem] text-xs p-1 rounded mt-2' placeholder='Your Email'/>
                         <textarea className='w-[7.5rem] mt-2 p-1 text-xs'rows={2} placeholder='Your Message'></textarea>
+                        </div>
+                        
+                        <div className='mt-2 flex justify-center items-center'>
+                        <button className='w-12 h-7 bg-white text-xs text-black'>Send</button>
+                        </div>
 
                     </form>
                 </div>
