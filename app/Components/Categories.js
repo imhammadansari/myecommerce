@@ -56,7 +56,7 @@ const Categories = () => {
                             <SwiperSlide>
                                 <Link href='./Mobile'>
                                     <div className='flex flex-col items-center justify-center'>
-                                        <img className='w-[10rem] md:w-[20rem] lg:w-[25rem]' src='./Mobile.jpg' />
+                                        <img className='w-[10rem] md:w-[20rem] lg:w-[25rem]' src='./mobile.jpg' />
                                         <h1 className='py-2 text-base md:text-lg lg:text-xl'>Mobile Accessories</h1>
                                     </div>
                                 </Link>
